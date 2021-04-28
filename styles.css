@@ -44,6 +44,12 @@ body {
   padding: 9.375rem 1.5625rem 5.3125rem 1.5625rem;
 }
 
+@media (min-width: 37.5em) {
+  body {
+    padding: 7.9375rem 1.5625rem 5.3125rem 1.5625rem;
+  }
+}
+
 @supports (gap: 1em) {
   body {
     gap: 1em;
@@ -61,6 +67,7 @@ img {
   padding: 11.5em 25px 50px 25px;
   position: relative;
   border-radius: 20px;
+  max-width: 57.5rem;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -96,12 +103,25 @@ img {
   z-index: -1;
 }
 
+@media screen and (min-width: 37.5em) {
+  .faq-wrapper {
+    padding: 70px 93px 83px 40px;
+  }
+}
+
 .faq-title {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
   color: var(--text-dark-blue);
   text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  .faq-title {
+    text-align: left;
+    margin-bottom: 1.875em;
+  }
 }
 
 .faq-list {
