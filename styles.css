@@ -145,6 +145,8 @@ img {
   }
 }
 
+/* "!!!!!!!! ACCORDION LIST !!!!!!!!!! */
+
 .faq-title {
   font-weight: 700;
   font-size: 1.5rem;
@@ -202,4 +204,14 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* !!!!!!!!!!!! ANIMATIONS !!!!!!!!!!!!!*/
+@keyframes animateIn {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
