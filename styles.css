@@ -159,7 +159,9 @@ img {
 @media screen and (min-width: 60em) {
   .faq-wrapper {
     padding: 70px 93px 83px 40px;
-    max-height: 442px;
+    min-height: 509px;
+    max-height: 509px;
+    /* max-height: 442px; */
     overflow: auto;
   }
 
@@ -202,7 +204,7 @@ img {
 
 .accordion-panel {
   font-family: inherit;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: left;
   cursor: pointer;
@@ -210,8 +212,8 @@ img {
   background-color: #fff;
   border: none;
   width: 100%;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   padding-right: 0;
   padding-left: 0;
 }
@@ -225,7 +227,7 @@ img {
   color: var(--text-gray);
   font-size: 0.75rem;
   margin-top: 1.25em;
-  padding-bottom: 1.25em;
+  padding-bottom: 1.25rem;
 }
 
 .hidden {
