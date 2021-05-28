@@ -1,5 +1,6 @@
 "use strict";
 
+const faqItem = document.querySelectorAll(".faq-item");
 const accordionPanel = document.querySelectorAll(".accordion-panel");
 const accordionContent = document.querySelectorAll(".accordion-content");
 

@@ -198,7 +198,6 @@ img {
 
 .faq-item {
   border-bottom: 1px solid var(--divider-light-gray);
-  padding: 1.25em 0;
 }
 
 .accordion-panel {
@@ -206,20 +205,27 @@ img {
   font-size: 0.75rem;
   font-weight: 400;
   text-align: left;
+  cursor: pointer;
   color: var(--text-dark-gray-gray);
   background-color: #fff;
   border: none;
   width: 100%;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .accordion-panel__active {
   font-weight: 700;
+  padding-bottom: 0;
 }
 
 .accordion-content {
   color: var(--text-gray);
   font-size: 0.75rem;
   margin-top: 1.25em;
+  padding-bottom: 1.25em;
 }
 
 .hidden {
