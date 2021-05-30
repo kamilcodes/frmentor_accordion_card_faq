@@ -204,12 +204,17 @@ img {
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
 .accordion-panel__active {
   font-weight: 700;
   padding-bottom: 0;
+}
+
+.accordion-panel__active::after {
+  transform: rotate(180deg);
 }
 
 .accordion-panel::after {
@@ -219,8 +224,9 @@ img {
   display: block;
   background-image: url(./images/icon-arrow-down.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 27em) {
