@@ -71,6 +71,9 @@ img {
   padding: 11.5em 25px 50px 25px;
   position: relative;
   border-radius: 20px;
+  box-shadow: 0 4.3px 3.2px rgba(0, 0, 0, 0.042),
+    0 11.8px 8.8px rgba(0, 0, 0, 0.06), 0 28.3px 21.1px rgba(0, 0, 0, 0.078),
+    0 94px 70px rgba(0, 0, 0, 0.12);
 }
 
 @media screen and (min-width: 27em) and (max-width: 35em) {
@@ -177,8 +180,9 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 65.625em) {
+@media (min-width: 65.625em) {
   .faq-title {
+    font-size: 1.7rem;
     text-align: left;
     margin-bottom: 20px;
   }
