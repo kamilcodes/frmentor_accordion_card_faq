@@ -68,7 +68,7 @@ img {
 .card-faq {
   display: grid;
   background-color: #fff;
-  padding: 11.5em 25px 50px 25px;
+  padding: 150px 25px 50px 25px;
   position: relative;
   border-radius: 20px;
   box-shadow: 0 4.3px 3.2px rgba(0, 0, 0, 0.042),
@@ -78,7 +78,7 @@ img {
 
 @media screen and (min-width: 27em) and (max-width: 35em) {
   .card-faq {
-    min-width: 85vw;
+    min-width: 90vw;
     max-width: 55ch;
   }
 }
@@ -146,9 +146,9 @@ img {
   transform: translate(-93px, 45px);
 }
 
-.faq-wrapper {
+/* .faq-wrapper {
   overflow: scroll;
-}
+} */
 
 @media screen and (min-width: 65.625em) {
   .faq-wrapper {
@@ -182,7 +182,7 @@ img {
 
 @media (min-width: 65.625em) {
   .faq-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: left;
     margin-bottom: 20px;
   }
@@ -216,6 +216,8 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+
+  transition: font-weight 0.2s;
 }
 
 .accordion-panel__active {
