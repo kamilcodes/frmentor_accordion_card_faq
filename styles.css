@@ -54,6 +54,12 @@ body {
   }
 }
 
+@media (min-width: 65.625em) {
+  body {
+    max-height: 100vh;
+  }
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -260,9 +266,10 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--text-dark-blue);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: currentColor;
 }
 
 /* !!!!!!!!!!!! ANIMATIONS !!!!!!!!!!!!!*/
