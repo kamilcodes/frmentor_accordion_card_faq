@@ -220,9 +220,17 @@ img {
   transition: font-weight 0.2s;
 }
 
+.accordion-panel:hover {
+  font-weight: 700;
+}
+
 .accordion-panel__active {
   font-weight: 700;
   padding-bottom: 0;
+}
+
+.accordion-panel:active {
+  color: var(--cl-soft-red);
 }
 
 .accordion-panel__active::after {
@@ -276,6 +284,10 @@ img {
 }
 .attribution a {
   color: currentColor;
+}
+
+.attribution a:hover {
+  color: var(--cl-soft-red);
 }
 
 /* !!!!!!!!!!!! ANIMATIONS !!!!!!!!!!!!!*/
