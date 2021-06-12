@@ -220,9 +220,9 @@ img {
   transition: font-weight 0.2s;
 }
 
-.accordion-panel:hover {
+/* .accordion-panel:hover {
   font-weight: 700;
-}
+} */
 
 .accordion-panel__active {
   font-weight: 700;
@@ -284,6 +284,8 @@ img {
 }
 .attribution a {
   color: currentColor;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .attribution a:hover {
